@@ -1,2 +1,6 @@
-package PACKAGE_NAME;public class NotFoundAnswerException {
+public class NotFoundAnswerException extends Exception{
+
+    public NotFoundAnswerException(String text) {
+        super(text);
+    }
 }
